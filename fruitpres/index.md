@@ -1,0 +1,57 @@
+---
+title       : The Fruit Consumption Web Application
+subtitle    : How much fruit do we eat...?
+author      : Vishal Arora
+job         : 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : standalone # {standalone, draft}
+knit        : slidify::knit2slides
+
+--- 
+
+{class: class1, id: id1, bg: yellow}
+## Benefits of Eating Fruit
+Who can resist the bright colors and sweet taste of a piece of fruit?
+But fruit is more than tasty--it's also good for you. Check out these facts about the nutrients found in fruit:
+- **Potassium** may help maintain a healthy blood pressure.
+- **Dietary fiber** from fruits helps reduce blood cholesterol levels and may lower risk of heart disease. 
+- **Vitamin C** is important for growth and repair of all body tissues, helps heal cuts and wounds, and keeps teeth and gums healthy.
+- **Folate** (folic acid) helps the body form red blood cells. 
+<p>++From [ChooseMyPlate.gov](http://www.choosemyplate.gov/food-groups/fruits-why.html)</p>
+![strawberries](assets/img/strawberries.jpg)
+
+--- {class: class1, id: id1, bg: lime}
+
+## The Web App!  ![oranges](assets/img/oranges.jpg) 
+- Studies have shown that fruit consumption varies according to different personal factors.
+- Now, there's a web app to help you see the average amounts of nine different fruits that people who have factors similar to yours eat daily.
+- Considers income, gender, age, weight, education and race/ethnicity.
+- Based on data compiled by the USDA.
+
+### Fruits included in the data set:
+
+```
+## [1] "Apples"        "Bananas"       "Berries"       "Grapes"       
+## [5] "Melons"        "Oranges"       "OtherCitrus"   "StoneFruit"   
+## [9] "TropicalFruit"
+```
+
+--- {class: class1, id: id1, bg: fuchsia}
+
+## The User Interface
+
+To use the app, simply make your selections on the left side of the web page and press the Submit! button.
+
+![web app](assets/img/appsnap.jpg) 
+
+--- {class: class1, id: id1, bg: orange}
+
+## The Results
+
+Results are displayed in an easy-to-read barplot. Try it out for yourself before heading for the fruit market!
+
+![barplot](assets/img/results.jpg)!   ![fruit market](assets/img/fruit_market.jpg)
+
