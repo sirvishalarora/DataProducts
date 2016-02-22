@@ -1,0 +1,16 @@
+---
+title: "About This Application"
+output: html_document
+---
+***
+### How to use this application
+
+The application is designed to be simple to use. Simply select your input parameters in the left side panel, using the drop-down boxes and radio button selectors. Then, press the **Submit!** button below the selection choices. The plot of fruit consumption for the selected parameters will appear to the right in the main panel.
+
+*Hint: If the plot labels appear too close to each other, simply enlarge your browser window.*
+
+The plot will not change with new parameter settings until the **Submit!** button is pressed again!
+
+### About
+
+The idea for this application was generated from the excellent, freely available datasets from the USDA website. The particular [fruit consumption dataset](http://www.ers.usda.gov/datafiles/Commodity_Consumption_by_Population_Characteristics/Food_Intakes_Converted_to_Retail_Commodities_Database/ficrcd_fruit.xls) used for this website was downloaded and reduced to only the variables needed for this application.
